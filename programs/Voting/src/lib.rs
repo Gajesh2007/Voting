@@ -39,7 +39,7 @@ pub mod voting {
         Ok(())
     }
 
-    pub fn create_ballot(
+    pub fn create_proposal(
         ctx: Context<OwnerContext>,
         name: String,
         desc: String,
